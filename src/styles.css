@@ -1,0 +1,191 @@
+a {
+  text-decoration: none;
+}
+#navbar-logo {
+  max-width: 130px;
+}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+body {
+  margin-top: 70px;
+  background-color: #f7f3ff;
+}
+.no-underline {
+  text-decoration: none !important;
+}
+#content {
+  padding: 50px 10px 50px 10px;
+
+  background: linear-gradient(
+    63deg,
+    rgb(242, 168, 168) 2.9%,
+    rgb(94, 46, 165) 102.1%
+  );
+}
+#intro {
+  max-width: 900px;
+
+  padding-top: 80px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Dancing Script", cursive;
+}
+#intro-buttons {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#about-me-btn,
+#contact-me-btn,
+#launch-app {
+  padding: 12px;
+  color: #806ff2;
+  font-weight: bold;
+
+  border: 1px solid #806ff2;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+#contact-me-btn,
+#launch-app {
+  color: white;
+  background-color: #806ff2;
+}
+#about-me-btn:hover {
+  color: white;
+  background-color: #806ff2;
+  box-shadow: none;
+}
+#contact-me-btn:hover,
+#launch-app:hover {
+  color: #806ff2;
+  background-color: white;
+  box-shadow: none;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-weight: normal;
+}
+h4 {
+  font-weight: normal;
+  color: gray;
+}
+
+.bg-violet {
+  background: linear-gradient(
+    135deg,
+    rgb(206, 159, 252) 10%,
+    rgb(115, 103, 240) 100%
+  );
+}
+
+.bg-violet-light {
+  /* background: radial-gradient(
+    circle at 10% 20%,
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
+  ); */
+  background-color: #e8defd;
+}
+.text-violet {
+  color: #5c50ac;
+}
+.border-radius-5 {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.app-description h2 {
+  color: black;
+  color: #ecddfb;
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: font-family: "Montserrat", sans-serif;; */
+}
+
+.app-description p {
+  /* color: rgb(90, 90, 90); */
+  color: #ecddfb;
+  font-size: 22 px;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pp {
+  margin-top: 25px;
+}
+
+footer {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #5c50ac;
+  background-color: #f7f3ff;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0px auto;
+}
+#media-icons {
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.media-icon {
+  font-size: 30px;
+  color: #5c50ac;
+}
+.media-icon:hover {
+  color: #c07fa8;
+}
+
+.resume {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 12px;
+}
+.resume-part {
+  padding: 10px 20px;
+  background-color: #e4e0ff;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+.resume-part h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.subhead {
+  font-size: 20px;
+}
+.project-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bold {
+  font-weight: bold;
+}
